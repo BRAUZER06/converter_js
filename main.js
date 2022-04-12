@@ -57,5 +57,5 @@ input.oninput = convertValue;
 select.oninput = convertValue;
 
 function convertValue() {
-  result.value = (parseFloat(input.value) / rates.USD.Value).toFixed(2);
+  result.value = (parseFloat(input.value) / rates[select.va].Value).toFixed(2);
 }

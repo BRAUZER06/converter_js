@@ -1,3 +1,18 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  padding-top: 200px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #c7c7c7;   
+  background: url('./img/bg.jpg');
+  background-size: cover;
+  color: #1f1f1f;
+}
+
 .courses {
     display: flex;
     margin-bottom: 15px;
